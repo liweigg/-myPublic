@@ -1,0 +1,87 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	background: black url("../images/bg.png") 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: relative;
+}
+.wrap img{
+	width: 100%;
+}
+.wenzi{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 41.4666%;
+	color: #676869;
+	/*font-size: 12px;*/
+}
+/*先将三个小三角相对于wrap绝对定位,再设置百分比*/
+.tuceng1{
+	position: absolute;
+	left: 49.3333%;
+	top:0;
+	width: 6%;
+}
+.tuceng2{
+	position: absolute;
+	left: 76.2666%;
+	top:37.916%;
+	width: 6%;
+
+}
+.tuceng3{
+	position: absolute;
+	left: 19.0666%;
+	top:85.6666%;
+	width: 6%;
+}
+/*将5个大三角相对于wrap进行绝对定位,再将其所属的文字绝对定位到三角上*/
+.datuceng1{
+	position: absolute;
+	top: 9%;
+	left: 52.2666%;
+	width: 20%;
+
+}
+.wenzi1{
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	font-size: 16px;
+	color: white;
+
+}
+.wenzi1 img{
+	width: 25%;
+}
+.datuceng2{
+	position: absolute;
+	left: 3.2%;
+	top: 28.0833%;
+	width: 20%;
+
+}
+.wenzi2{
+	position: absolute;
+	left: 35.2%;
+	top: 28.0833%;
+	font-size: 18px;
+	color: white;
+
+}
+.wenzi2 img{
+	width: 15%;
+}
+.wenzi2 p{
+	margin-left: -13%;
+}
+
+
+
+
